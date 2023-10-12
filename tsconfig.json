@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["jasmine", "node"],
+      "sourceMap": false,
+      "noImplicitAny": false,
+      "noEmitOnError": true,
+      "removeComments": false,
+      "outDir": "./build",
+    }
+}

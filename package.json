@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@types/jasmine": "^4.6.0",
+    "@types/node": "latest",
+    "@types/selenium-webdriver": "^4.1.17",
+    "jasmine": "^5.1.0",
+    "jasmine-core": "^5.1.1",
+    "prettier": "^3.0.3",
+    "selenium-webdriver": "^4.14.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "prettier-format": "prettier --config .prettierrc '**/*.ts' --write",
+    "clean_install": "rm -rf ./node_modules; npm i",
+    "build": "rm -r build & tsc",
+    "test": "jasmine --config=./jasmine.json"
+  }
+}
